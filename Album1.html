@@ -4,7 +4,7 @@
   <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, user-scalable=no" />
-      <title>Photo Gallery - Home</title>
+      <title>Photo Gallery - Album1</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
       <link rel="stylesheet" href="public/videojs/video-js.min.css" />
       <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
@@ -28,26 +28,34 @@
         Breadcrumbs of parent albums
       -->
       <nav class="breadcrumbs">
-    <a class="breadcrumb-item" href="index.html">Home</a>
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="Album1.html">Album1</a>
       </nav>
     
       <!--
         Nested albums, if any
       -->
       <div id="albums">
-    <a href="Album1.html" style="background-image: url('media/small/Album1/IMG_20220611_133046_129.jpg')">
-            <div class="info">
-              <h3>Album1</h3>
-              <div class="summary">1 photo</div>
-              <div class="date">11 Jun 2022 - 11 Jun 2022</div>
-            </div>
-          </a>  </div>
+      </div>
     
       <!--
         All photos and videos
       -->
       <ul id="media" class="clearfix">
-      </ul>
+          
+            <li data-src="media/large/Album1/IMG_20220611_133046_129.jpg"
+                data-sub-html=""
+                data-download-url="media/original/Album1/IMG_20220611_133046_129.jpg"
+                
+                data-filename="IMG_20220611_133046_129.jpg"
+          
+              >
+              <a href="media/original/Album1/IMG_20220611_133046_129.jpg">
+                <img src="media/thumbs/Album1/IMG_20220611_133046_129.jpg"
+                     width="120"
+                     height="120"
+                     alt="IMG_20220611_133046_129.jpg" />
+              </a>
+            </li>  </ul>
     
       <!--
         Pagination
