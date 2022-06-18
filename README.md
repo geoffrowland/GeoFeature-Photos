@@ -1,6 +1,8 @@
 # Github Pages Gallery
 Host your photo/video gallery in Github pages easily using Thumbsup & Github Actions for free.
 
+Demo: https://geoffrowland.github.io/GeoFeature-Photos/
+
 ### Why this project?
 This project contains starter code for anyone who wants to deploy his/her photo/video galery on Github Pages,
 **Zero Coding Needed**. Since Github pages is a free hosting service offered by Github to host static pages, it
