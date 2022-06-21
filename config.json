@@ -3,11 +3,11 @@
   "output": "./build_output",
   "title": "GeoFeature Photo Gallery",
   "sort-albums-by": "title",
-  "sort-media-by": "filename",
+  "sort-media-by": "date",
   "download-photos": "copy",
   "cleanup": true,
   "theme": "cards",
   "css": "./custom.css",
-  "footer": "Copyright Text",
+  "footer": "Copyright © Geoffrey Rowland",
   "usage-stats": false
 }
