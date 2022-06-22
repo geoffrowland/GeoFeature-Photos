@@ -7,7 +7,7 @@
   "download-photos": "copy",
   "large-size": 800,
   "cleanup": true,
-  "theme": "flow",
+  "theme": "card",
   "css": "./custom.css",
   "footer": "Copyright © Geoffrey Rowland 2022",
   "usage-stats": false
