@@ -8,7 +8,7 @@
   "large-size": 600,
   "download-photos": "copy",
   "cleanup": true,
-  "theme": "cards",
+  "theme": "mosaic",
   "css": "./custom.css",
   "footer": "Copyright Geoff Rowland 2022",
   "usage-stats": false
