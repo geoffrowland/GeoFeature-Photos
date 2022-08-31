@@ -6,75 +6,94 @@
       <meta name="viewport" content="width=device-width, user-scalable=no" />
       <title>GeoFeature Photo Gallery - Home</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
-      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
       <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
       <link rel="stylesheet" href="public/core.css" />
       <link rel="stylesheet" href="public/theme.css" />
   </head>
 
   <body>
 
-    
-    <div id="container">
+    <div>
     
       <!--
         Gallery title
       -->
-      <header>
+      <header style="color: #17baef;">
         <h1><a href="index.html">GeoFeature Photo Gallery</a></h1>
       </header>
     
       <!--
         Breadcrumbs of parent albums
       -->
+    
       <nav class="breadcrumbs">
+        <div class="mask"></div>
     <a class="breadcrumb-item" href="index.html">Home</a>
       </nav>
     
       <!--
-        Nested albums, if any
+        Main gallery panel
       -->
-      <div id="albums">
-    <a href="2022-ham-hill.html" style="background-image: url('media/small/2022-ham-hill/HamHillMeadow.jpg')">
-            <div class="info">
+      <section id="content">
+    
+        <!--
+          Nested albums, if any
+        -->
+        <ul id="albums">
+    <li>
+            <a href="2022-ham-hill.html">
               <h3>2022-ham-hill</h3>
-              <div class="summary">6 photos</div>
-              <div class="date">06 Jun 2022 - 13 Jun 2022</div>
-            </div>
-          </a><a href="OrdnanceSurveyDrawings.html" style="background-image: url('media/small/OrdnanceSurveyDrawings/Ordnance_Survey_Drawings_-_Niton_(OSD_67).jpg')">
-            <div class="info">
+              <div class="meta">
+                <time>06 Jun 2022 - 13 Jun 2022</time><span class="separator">,</span>
+                <span class="summary">6 photos</span>
+              </div>
+              <ul class="grid clearfix"><li><img src="media/thumbs/2022-ham-hill/HamHillMeadow.jpg" /></li><li><img src="media/thumbs/2022-ham-hill/HamHillRegulars2.jpg" /></li><li><img src="media/thumbs/2022-ham-hill/HamHillStroudsMeadowOrchid_2022_June.jpg" /></li><li><img src="media/thumbs/2022-ham-hill/HamHillStroudsMeadow_2022_June.jpg" /></li><li><img src="media/thumbs/2022-ham-hill/HamHillFullHeight2_2022_June.jpg" /></li><li><img src="media/thumbs/2022-ham-hill/HamHillFullHeight3_2022_June.jpg" /></li><li><img src="public/missing.png" /></li><li><img src="public/missing.png" /></li>          </ul>
+            </a>
+          </li><li>
+            <a href="OrdnanceSurveyDrawings.html">
               <h3>OrdnanceSurveyDrawings</h3>
-              <div class="summary">20 photos</div>
-              <div class="date">13 Jan 2012 - 31 Aug 2022</div>
-            </div>
-          </a><a href="ham-hill-survey.html" style="background-image: url('media/small/ham-hill-survey/IMG_20210730_155813_081501.jpg')">
-            <div class="info">
+              <div class="meta">
+                <time>13 Jan 2012 - 31 Aug 2022</time><span class="separator">,</span>
+                <span class="summary">20 photos</span>
+              </div>
+              <ul class="grid clearfix"><li><img src="media/thumbs/OrdnanceSurveyDrawings/Ordnance_Survey_Drawings_-_Niton_(OSD_67).jpg" /></li><li><img src="media/thumbs/OrdnanceSurveyDrawings/Ordnance_Survey_Drawings_-_Axbridge_(OSD_49)_Enhanced.jpg" /></li><li><img src="media/thumbs/OrdnanceSurveyDrawings/Ordnance_Survey_Drawings_-_Axmouth_(OSD_45-4)_Enhanced.jpg" /></li><li><img src="media/thumbs/OrdnanceSurveyDrawings/Ordnance_Survey_Drawings_-_Bath_(OSD_60)_Enhanced.jpg" /></li><li><img src="media/thumbs/OrdnanceSurveyDrawings/Ordnance_Survey_Drawings_-_Beaminster_(OSD_54)_Enhanced.jpg" /></li><li><img src="media/thumbs/OrdnanceSurveyDrawings/Ordnance_Survey_Drawings_-_Bridport_(OSD_55)_Enhanced.jpg" /></li><li><img src="media/thumbs/OrdnanceSurveyDrawings/Ordnance_Survey_Drawings_-_Cranbourne,_Hampshire_(OSD_65)_Enhanced.jpg" /></li><li><img src="media/thumbs/OrdnanceSurveyDrawings/Ordnance_Survey_Drawings_-_Dorchester_(OSD_57)_Enhanced.jpg" /></li>          </ul>
+            </a>
+          </li><li>
+            <a href="ham-hill-survey.html">
               <h3>ham-hill-survey</h3>
-              <div class="summary">58 photos</div>
-              <div class="date">30 Jul 2021 - 29 Jan 2022</div>
-            </div>
-          </a><a href="west-bexington.html" style="background-image: url('media/small/west-bexington/IMG_20220415_104654_18CS_062911.jpg')">
-            <div class="info">
+              <div class="meta">
+                <time>30 Jul 2021 - 29 Jan 2022</time><span class="separator">,</span>
+                <span class="summary">58 photos</span>
+              </div>
+              <ul class="grid clearfix"><li><img src="media/thumbs/ham-hill-survey/IMG_20210730_155813_081501.jpg" /></li><li><img src="media/thumbs/ham-hill-survey/IMG_20210730_160332_5CS_081452.jpg" /></li><li><img src="media/thumbs/ham-hill-survey/IMG_20210730_160336_081436.jpg" /></li><li><img src="media/thumbs/ham-hill-survey/IMG_20210730_160338_081420.jpg" /></li><li><img src="media/thumbs/ham-hill-survey/IMG_20210730_170610_081408.jpg" /></li><li><img src="media/thumbs/ham-hill-survey/IMG_20210730_170613_1CS_081401.jpg" /></li><li><img src="media/thumbs/ham-hill-survey/IMG_20210730_170631_081350.jpg" /></li><li><img src="media/thumbs/ham-hill-survey/IMG_20210813_183214_10CS_081300.jpg" /></li>          </ul>
+            </a>
+          </li><li>
+            <a href="west-bexington.html">
               <h3>west-bexington</h3>
-              <div class="summary">37 photos</div>
-              <div class="date">15 Apr 2022 - 18 Jun 2022</div>
-            </div>
-          </a>  </div>
+              <div class="meta">
+                <time>15 Apr 2022 - 18 Jun 2022</time><span class="separator">,</span>
+                <span class="summary">37 photos</span>
+              </div>
+              <ul class="grid clearfix"><li><img src="media/thumbs/west-bexington/IMG_20220415_104654_18CS_062911.jpg" /></li><li><img src="media/thumbs/west-bexington/IMG_20220415_104717_8CS_062902.jpg" /></li><li><img src="media/thumbs/west-bexington/IMG_20220415_123114_11CS_062855.jpg" /></li><li><img src="media/thumbs/west-bexington/IMG_20220415_123122_8CS_062848.jpg" /></li><li><img src="media/thumbs/west-bexington/IMG_20220415_152207_9CS_062835.jpg" /></li><li><img src="media/thumbs/west-bexington/IMG_00009_BURST20220513102230.jpg" /></li><li><img src="media/thumbs/west-bexington/IMG_20220513_102234_782.jpg" /></li><li><img src="media/thumbs/west-bexington/IMG_20220513_142231_042.jpg" /></li>          </ul>
+            </a>
+          </li>    </ul>
     
-      <!--
-        All photos and videos
-      -->
-      <ul id="media" class="clearfix">
-      </ul>
+        <!--
+          All photos and videos
+        -->
+        <ul id="media">
+        </ul>
     
-      <!--
-        Pagination
-      -->
+        <!--
+          Pagination
+        -->
     
-      <!--
-        Zip file link
-      -->
+        <!--
+          Zip file link
+        -->
     
+      </section>
     
       <!--
         Optional footer
